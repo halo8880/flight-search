@@ -28,3 +28,6 @@
 1. The project is running on port 8080, 6379, 3306
 2. The project needs mysql and redis running to run the tests
 3. For properly handling the sequenceNumber in distributed systems, we will need a Sequence Generator Service
+4. Requests to The Provider1 have a delay of 2s, check stimulateSlowNetwork()
+5. Requests to The Provider2 have a delay of 15s, check stimulateSlowNetwork()
+6. That means that the polling API will return data from The Provider1 first, then The Provider2 data will be there after 15s.
