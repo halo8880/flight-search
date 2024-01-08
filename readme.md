@@ -21,7 +21,7 @@ Project using JDK 17 and Maven 3.9.2 <br>
     Request params: <br>
    {<br>
    searchId:369b91e4-7c04-4cf7-9801-babbbb8c9adb <br>
-   afterSequenceNumber:1704694017495  (server will only return the schedules with sequenceNumber larger than this number)<br> 
+   afterSequenceNumber:1704694017495  (optional, server will only return the schedules with sequenceNumber larger than this number)<br> 
    }<br>
 
 ``Some notes:``
