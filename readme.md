@@ -1,3 +1,4 @@
+Project using JDK 17 and Maven 3.9.2 <br>
 ``How to run:`` <br>
 
     1. cd ./docker <br>
